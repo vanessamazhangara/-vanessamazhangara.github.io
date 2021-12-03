@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&family=Roboto+Mono:wght@300;500&family=Poppins:wght@600&display=swap');
+ * {
+     margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+} 
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    width: 100vw;
+    height: 50px;
+    background-color: #c1d3fe;
+    justify-content: space-between;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    font-family: 'Montserrat';
+}
+
+
+li {
+    margin: 15px 5px;
+    list-style: none;
+}
+
+.fab {
+    margin-right: 5px;
+}
+
+.fa-html5 {
+    color: #ff7b00;
+}
+
+.fa-css3 {
+    color: rgb(27, 93, 236);
+}
+
+.fa-js-square {
+    color: rgb(209, 209, 75);
+}
+
+.fa-node-js {
+    color: green;
+}
+.hero {
+    display: flex;
+    background-color: #c1d3fe;
+    width: 100%;
+    /* padding: 50px; */
+}
+
+.hero-info {
+    margin: 60px;
+    max-width: 500px;
+    align-items: center;
+}
+
+h1 {
+    margin: 25px;
+    font-size: 1.5rem;
+    /* color: white; */
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+}
+
+#intro-bio {
+    margin: 40px;
+    font-size: 1.5rem;
+    font-family: 'Roboto Mono, monospace';
+    color: white;
+    font-weight: 700;
+}
+
+p {
+    margin: 40px;
+    font-size: 1.5rem; 
+}
+
+
+
+.button {
+    border: 0;
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: #ef866c;
+    width: 100px;
+    border-radius: 20px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 12px;
+    text-align: center;
+    margin: 25px;
+}
+.hero-image {
+    height: 500px;
+    width: 500px;
+    margin: 20px;
+}
+
+h2 {
+    font-size: 3rem;
+    text-align: center;
+    padding: 10px;
+    font-family: "Montserrat";
+}
+
+.about-me {
+    display: flex;
+}
+
+#left-me {
+    margin: 25px;
+}
+
+#right-me {
+    margin: 50px;
+}
+
+
+.profile-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 25px;
+    border: #c1d3fe 10px solid;
+    /* flex-direction: column; */
+}
+
+.about-me-text {
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    background-color: hsl(12, 80%, 68%, .6);
+    width: 500px;
+    box-shadow: 20px 17px 2px 1px rgba(0, 0, 255, .2);
+    font-family: "Montserrat";
+    font-size: medium;
+    line-height: 30px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 35px;
+}
+
+.listed-skills {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    font-size:larger;
+  
+}
+
+#projects {
+    background-color: rgb(219, 209, 209);
+    width: 100%;
+}
+
+h4 {
+    font-size: 3rem;
+    text-align: left;
+    margin: 15px;
+}
+
+.project-todo {
+    display: flex;
+    flex-direction: column;
+    /* margin: 25px; */
+    
+}
+
+.project-todo p {
+    border: 3.5px dashed #a17df4;
+    font-size: 2rem;
+    width: 200px;
+}
+
+
+
+/* Project Section */
+
+.section-heading {
+	font-size: 3rem;
+	text-transform: uppercase;
+	font-family: 'Montserrat';
+	letter-spacing: 0.2rem;
+	text-align: center;
+	position: relative;
+	margin-bottom: 3rem;
+    margin-top: 1rem;
+}
+
+
+#projects {
+    padding: 3rem 0;
+    background-color: #c1d3fe;
+}
+
+#projects .item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 800px;
+    margin: 0 auto;
+    position: relative;
+}
+
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.left-item {
+	border-radius: 12px;
+	box-shadow: 0px 12px 20px hsl(0, 0%, 0%, .75);
+	z-index: 5;
+    margin-right: -25px;
+} 
+
+.right-item {
+    background-color: hsl(102, 97%, 88%, 3);
+    box-shadow: 20px 17px 2px 1px rgba(0, 0, 255, .2);
+	z-index: 1;
+    width: -850px;
+    border-radius: 25px;
+    font-family: 'Roboto Mono, monospace';
+    font-weight: 700;
+}
+
+.project-title {
+    font-size: 2.0rem;
+    font-family: 'Montserrat';
+}
+
+.project-sub-title {
+    font-size: 1.3rem;
+    font-family: 'Montserrat';
+    margin-bottom: 0;
+}
+
+.project-desc {
+    font-family: 'Montserrat';
+    line-height: 30px;
+    padding: 0;
+    font-size: medium;
+}
+
+
+
+
+ .contact-cards {
+    display: flex;
+    justify-content: space-evenly;
+ }
+
+ .email {
+     padding: 10px;
+     font-size: 2rem;
+    
+ }
+
+ .fa-at {
+     color: #c1d3fe;
+     height:1rem;
+     font-size: 5.75em;
+     margin: 20px;
+ }
+
+ .fa-github-square {
+    height:1rem;
+    font-size: 5.75em;
+    margin: 20px;
+}
+ 
+.contact-details {
+    font: 1.5rem 'Montserrat';
+    text-align: center;
+    
+}  
+   

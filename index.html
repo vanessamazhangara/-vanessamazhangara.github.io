@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"/>
+    <script src="https://kit.fontawesome.com/5d281381f0.js" crossorigin="anonymous"></script>
+    <title>Vanessa Mazhangara Portfolio</title>
+</head>
+<body>
+    <nav>
+        <ul class="nav-bar" id="nav-list">
+            <li><a href="#about-me" style="color:white; text-decoration:none">About Me</a></li>
+            <li><a href="https://github.com/vanessamazhangara" style="color:white; text-decoration:none">GitHub</a></li>
+            <li><a href="#contact-me" style="color:white; text-decoration:none">Contact</a></li>
+          </ul>
+    </nav>
+    <section class="hero">
+        <div class="hero-info">
+            <h1 id="name">Vanessa Mazhangara</h1>
+            <p id="intro-bio">Web Developer,  Storyteller, and Creative with an appetite for design. </p>
+            <button class="button">Hire Me</button>
+        </div>
+        <div>
+            <img
+          class="hero-image"
+          src="woman1.png"
+          alt="working illustration of a woman"
+            />
+        </div>
+    </section>
+    <h2 id="about-me">About Me</h2>
+    <section class="about-me">
+        <div id='left-me'>
+            <image
+            class="profile-pic"
+            src="portfolio.png"
+            alt="vanessa mazhangara picture"
+            />
+        </div>
+        <div id="right-me">
+            <div>
+                <p class="about-me-text">Hi, I am Vanessa. I'm a 27-year old creative. Before my digital genesis, I studied Performing Arts in New York. By trade, I am a storyteller. I revel in connection. Working in the digital landscape, creativity takes on a whole new meaning. The reach & impact technology has in our communities is one of the reasons why I enjoy web development. When I am not chained to my laptop, I can be spotted binging Bollywood Movies, reading a great memoir, or photographing some amazing people.</p>
+            </div>
+            <h3>Skills</h3>
+            <ul class="listed-skills">
+                <li><i class="fab fa-html5"></i>html</li>
+                <li><i class="fab fa-css3"></i>css</li>
+                <li><i class="fab fa-js-square"></i>javascript</li>
+                <li><i class="fab fa-node-js"></i>node.js</li>
+            </ul>
+        </div>
+    </section>
+    <section id="projects">
+        <div>
+            <h4 class="section-heading" data-outline="Projects">Projects</h4>
+            <div class="all-items">
+                <div class="item">
+                    <div class="left-item">
+                        <div class="img">
+                            <img src="TodoApp.png"/>
+                        </div>
+                    </div>
+                    <div class="right-item">
+                        <h2 class="project-title">Todo App</h2>
+                        <h3 class="project-sub-title">User-friendly todo list app</h3>
+                        <p class="project-desc">Created with the user that needs a guidance to remain organized in mind. Todo is a web application that allows users to create, sort, & update a task list. Built with technologies like express, axios, and javascript.</p>
+                        <a href="https://github.com/vanessamazhangara/todo"><button id="todo-app-btn" class="button">Learn More</button> </a>
+                    </div>
+                  
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact-section">
+        <h5 id="contact-me" class="section-heading">Contact Me</h5>
+        <div class="contact-cards">
+            <div class="email">
+                <i class="fas fa-at"></i>
+                <div>
+                    <p class="contact-details">nvmazhan@gmail.com</p>
+                </div>
+            </div>
+            <div class="email">
+                <i class="fab fa-github-square"></i>
+                <div>
+                    <p class="contact-details">GitHub</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer></footer>
+    <script>
+        const todoAppBtn = document.getElementById('todo-app-btn');
+        todoAppBtn.addEventListener('click', () => {
+            let window = window.open("https://github.com/vanessamazhangara/todo", "Todo App", "popup")
+        })
+    </script>
+</body>
+</html>
+
